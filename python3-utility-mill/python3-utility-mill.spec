@@ -36,7 +36,7 @@ Requires: python3-pyyaml
 UNKNOWN
 
 %prep
-%setup -n %{repo_name}-%{repo_branch}
+%setup -n python-support-utility-mill-%{repo_branch}
 
 %build
 python3 setup.py build

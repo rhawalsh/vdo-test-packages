@@ -38,7 +38,7 @@ Requires: python3-utility-mill >= 1
 UNKNOWN
 
 %prep
-%setup -n %{repo_name}-%{repo_branch}
+%setup -n python-support-resource-discovery-%{repo_branch}
 
 %build
 python3 setup.py build
